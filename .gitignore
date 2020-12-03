@@ -1,0 +1,14 @@
+### Python Files ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+### Others Files ###
+# Environments
+.env
+
+# Log
+*.log
+
+# Sqlite dbs
+*.db
+migrations/

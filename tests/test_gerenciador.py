@@ -4,7 +4,7 @@ from fastapi.testclient import TestClient
 
 def test_quando_listar_carros_deve_ter_como_retorno_codigo_de_status_200():
     cliente = TestClient(app)
-    resposta = cliente.get("/carros")
+    resposta = cliente.get("/veiculos/lista-de-veiculos")
     assert resposta.status_code == 200
     # assert resposta.json() == {"msg": "Hello World"}
 
